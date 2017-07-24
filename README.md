@@ -9,7 +9,10 @@
 
 <dl>
 <dt><a href="#foo">foo()</a></dt>
-<dd><p>description of foo function</p>
+<dd><p>Description of foo function</p>
+</dd>
+<dt><a href="#bar">bar(one, two)</a> ⇒ <code>boolean</code></dt>
+<dd><p>bar - Testing variables</p>
 </dd>
 </dl>
 
@@ -32,6 +35,19 @@ Book - Makes a book object
 <a name="foo"></a>
 
 ## foo()
-description of foo function
+Description of foo function
 
 **Kind**: global function  
+<a name="bar"></a>
+
+## bar(one, two) ⇒ <code>boolean</code>
+bar - Testing variables
+
+**Kind**: global function  
+**Returns**: <code>boolean</code> - is one > two  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| one | <code>int</code> | ichi |
+| two | <code>int</code> | ni |
+

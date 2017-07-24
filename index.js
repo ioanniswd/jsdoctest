@@ -1,8 +1,19 @@
-/** description of foo function */
+/** Description of foo function */
 function foo() {
   console.log('foo');
 }
 
+
+/**
+ * bar - Testing variables
+ *
+ * @param  {int} one ichi
+ * @param  {int} two ni
+ * @return {boolean}     is one > two
+ */
+function bar(one, two) {
+  return one > two;
+}
 
 /**
  * Book - Makes a book object
