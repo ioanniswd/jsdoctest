@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "doc": "./node_modules/.bin/jsdoc index.js"
+    "doc": "./node_modules/.bin/jsdoc index.js",
+    "readme": "jsdoc2md index.js >> README.md"
   },
   "keywords": [],
   "author": "",
